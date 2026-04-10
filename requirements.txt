@@ -1,0 +1,9 @@
+stable-baselines3[extra]>=2.6,<3.0
+gymnasium[box2d]>=1.0,<1.3
+pygame>=2.5
+
+# LunarLander-v3 depends on Box2D. On Windows, Box2D builds may require SWIG.
+# If installation fails around Box2D/box2d-py, install SWIG first:
+#   pip install swig
+#   pip install -r requirements.txt
+swig>=4.2
